@@ -1,6 +1,6 @@
 {
   "name": "homebridge-rasppi-gpio-garagedoor",
-  "homebridge-rasppi-gpio-garagedoor": "https://github.com/GatoPharaoh/homebridge-rasppi-gpio-garagedoor/tarball/master",
+  "version": "1.0.10",
   "description": "Exposes a garage door accessory to HomeBridge that uses a RaspberryPi GPIO pins",
   "main": "index.js",
   "scripts": {
