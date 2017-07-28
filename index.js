@@ -31,7 +31,7 @@ function RaspPiGPIOGarageDoorAccessory(log, config) {
   this.name = config["name"];
   this.doorSwitchPin = config["doorSwitchPin"];
   this.relayOn = getVal(config, "doorSwitchValue", 1);
-  this.relayOff = 1-this.relayOn; //opposite of relayOn (O/1)
+  this.relayOff = 2-this.relayOn; //opposite of relayOn (O/1)
   this.doorSwitchPressTimeInMs = getVal(config, "doorSwitchPressTimeInMs", 1000);
   this.closedDoorSensorPin = getVal(config, "closedDoorSensorPin", config["doorSensorPin"]);
   this.openDoorSensorPin = config["openDoorSensorPin"];
